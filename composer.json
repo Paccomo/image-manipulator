@@ -1,0 +1,21 @@
+{
+  "name": "paccomo/image-manipulator",
+  "description": "A lightweight PHP image manipulation library.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Paccomo"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Paccomo\\ImageManipulator\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.4"
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
